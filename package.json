@@ -1,0 +1,32 @@
+{
+  "name": "typescript-ecs-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": "^12.0.0"
+  },
+  "scripts": {
+    "start": "ts-node-dev src/index.ts",
+    "format": "prettier --config .prettierrc 'src/**/*.ts' --write"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tobthecreator/typescript-ecs-playground.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tobthecreator/typescript-ecs-playground/issues"
+  },
+  "homepage": "https://github.com/tobthecreator/typescript-ecs-playground#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.15.0",
+    "@types/node": "^16.4.13",
+    "prettier": "^2.3.2",
+    "ts-node": "^10.2.0",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.3.5"
+    
+  }
+}
